@@ -18,7 +18,7 @@ For scripting i used Python and for calling these sripts i use text-expander [Es
 
 * Then, just type abbreviation `:genstr` and write numbers into input form
 
-![gif](../media/string-generator.gif)
+![gif](./media/string-generator.gif)
 
 ## Multiple fields filling out
 

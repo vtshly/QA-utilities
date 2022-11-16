@@ -1,0 +1,19 @@
+matches:
+# Configs
+
+  - trigger: ":genstr "
+    replace: "{{output}}"
+    label: String Generator with form input
+    vars:
+      - name: strLength
+        type: form
+        params:
+          layout: |
+            String length [[length]]
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - C:\Users\vitaliy\Documents\Python\QAutilits\string-generator.py
+          debug: true

@@ -16,8 +16,10 @@ For scripting i used Python and for calling these sripts i use text-expander [Es
 
 * Put `string-generator.yml` file in espanso directory (or use [imports](https://espanso.org/docs/matches/organizing-matches/#imports)) and `string-generator.py` file in `../scripts` folder
 * Then, just type abbreviation `:genstr` and write numbers of string length into input form
+* Then, just type abbreviation `:genstr` and write numbers into input form
 
-![string-generator.gif](./media/string-generator.gif)
+![gif](./media/string-generator.gif)
+
 
 ## Multiple fields filling out
 
@@ -26,7 +28,7 @@ For scripting i used Python and for calling these sripts i use text-expander [Es
 ## Fake Data Generation
 
 * Put file `fake-data-gen.yml` in espanso directory (oe user imports). 
-* Put files `fake-*.py` in ../scripts folder
+* Put files `fake-*.py` in `../scripts` folder
 * Press `ALT`+`SPACE` for espanso search box.
 * Find fake generator. Press `ENTER`
 

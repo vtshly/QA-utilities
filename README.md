@@ -27,7 +27,9 @@ For scripting i used Python and for calling these sripts i use text-expander [Es
 
 ## Fake Data Generation
 
-* Put file `fake-data-gen.yml` in espanso directory (oe user imports). 
+Python [Faker lib](https://github.com/joke2k/faker) + Espanso = realistic data filling 😍
+
+* Put file `fake-data-gen.yml` in espanso directory (or use imports). 
 * Put files `fake-*.py` in `../scripts` folder
 * Press `ALT`+`SPACE` for espanso search box.
 * Find fake generator. Press `ENTER`

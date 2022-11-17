@@ -15,5 +15,5 @@ matches:
         params:
           args: 
             - python
-            - C:\Users\vitaliy\Documents\Python\QAutilits\string-generator.py
+            - ../scripts/string-generator.py
           debug: true

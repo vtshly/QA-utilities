@@ -1,0 +1,35 @@
+matches:
+# Configs
+
+  - trigger: ":name "
+    replace: "{{output}}"
+    label: Generate fake name EN
+    vars:
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - ../scripts/fake-name-en.py
+
+  - trigger: ":address "
+    replace: "{{output}}"
+    label: Generate fake address EN
+    vars:
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - ../scripts/fake-address-en.py
+
+  - trigger: ":company "
+    replace: "{{output}}"
+    label: Generate fake company EN
+    vars:
+      - name: output
+        type: script
+        params:
+          args: 
+            - python
+            - ../scripts/fake-company-en.py
